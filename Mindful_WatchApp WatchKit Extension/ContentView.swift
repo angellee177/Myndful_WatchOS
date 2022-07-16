@@ -9,8 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        NavigationView{
+            VStack(spacing: 10){
+                Text("Punya waktu berapa lama?")
+                
+                NavigationLink(destination : ActivityList(listOfActivity: activitiesLess60)){
+                Text("< 60 Seconds")
+                }
+                
+                NavigationLink(destination : ActivityList(listOfActivity: activitiesMore60)){
+                Text("> 60 Seconds")
+                }
+                
+            }
+        }.navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
     }
 }
 
