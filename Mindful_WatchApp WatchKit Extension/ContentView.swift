@@ -11,14 +11,14 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack(spacing: 10){
-                Text("Punya waktu berapa lama?")
+                Text("Choose Your Time")
                 
                 NavigationLink(destination : ActivityList(listOfActivity: activitiesLess60)){
-                Text("< 60 Seconds")
+                Text("Under a minute")
                 }
                 
                 NavigationLink(destination : ActivityList(listOfActivity: activitiesMore60)){
-                Text("> 60 Seconds")
+                Text("More than a minute")
                 }
                 
             }

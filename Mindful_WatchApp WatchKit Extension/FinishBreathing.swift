@@ -14,13 +14,13 @@ struct FinishBreathing: View {
             Spacer()
             ZStack{
                 Circle()
-                    .frame(width: 60, height: 60, alignment: .center)
-                    .foregroundColor(.green)
+                    .frame(width: 55, height: 55, alignment: .center)
+                    .foregroundColor(Color(red: 111/255, green: 207/255, blue: 151/255))
                 
                 Circle()
                     .frame(width: 80, height: 80, alignment: .center)
-                    .foregroundColor(.green)
-                    .opacity(0.2)
+                    .foregroundColor(Color(red: 111/255, green: 207/255, blue: 151/255))
+                    .opacity(0.24)
                 
                 Image(systemName: "checkmark")
                     .resizable()
