@@ -30,7 +30,7 @@ struct Activities : Identifiable{
 //REPEATING DIGANTI KE 3 NANTI
 let activitiesLess60 : [Activities] = [Activities(title: "Quick Breathing", image: Image("quickBreathing"), time: "15 SECS", repeating: 1, breathingTime: [5,5,5,0]),
                                        Activities(title: "Emergency Breathing", image: Image("emergency"), time: "21 Seconds", repeating: 1, breathingTime: [7,7,7,0]),
-                                       Activities(title: "Before Sleep Breathing", image: Image("beforeSleep"), time: "57 SECS", repeating: 1, breathingTime: [4, 7, 8, 0]),
+                                       Activities(title: "Before Sleep Breathing", image: Image("beforeSleep"), time: "57 SECS", repeating: 3, breathingTime: [4, 7, 8, 0]),
                                        Activities(title: "Calm Breathing", image: Image("breathingCalm"), time: "60 SECS", repeating: 10, breathingTime: [3,3,3,0])]
 
 let activitiesMore60 : [Activities] = [Activities(title: "Wake Up Breathing", image: Image("wakeUp"), time: "120 SECS", repeating: 12, breathingTime: [8, 1, 2, 0]),
