@@ -23,7 +23,6 @@ struct BreathingTimerView: View {
     @State var breathState : Int = 0
     @State var opacityAppear = false
     
-    
     @State var animationDuration : Double = 0
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -47,16 +46,6 @@ struct BreathingTimerView: View {
                     )
                     .scaleEffect(scalePoint)
                     .animation(.linear(duration: animationDuration), value: scalePoint)
-                
-                //putih ditengah
-                //                Circle()
-                //                    .frame(width: 50, height: 50, alignment: .center)
-                //                    .foregroundColor(.white)
-                //                    .opacity(0.6)
-                //                    .blur(radius: 5)
-                //                    .scaleEffect(scalePoint)
-                //                    .animation(.linear(duration: animationDuration), value: scalePoint*0.7)
-                
                 
                 Text("\(countdownTimer)")
                     .foregroundColor(.black)
@@ -118,11 +107,6 @@ struct BreathingTimerView: View {
             }
             .opacity(opacityAppear ? 1:0)
             
-            //            LinearGradient(
-            //                colors: [Color(red: 180/255, green: 194/255, blue: 253/255), Color(red: 122/255, green: 181/255, blue: 252/255)],
-            //                startPoint: .top,
-            //                endPoint: .bottom
-            //            ).mask(
             Text(breathDescription)
                 .opacity(opacityAppear ? 1:0.1)
                 .font(.title3)
