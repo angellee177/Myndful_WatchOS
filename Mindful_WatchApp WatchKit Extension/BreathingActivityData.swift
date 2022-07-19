@@ -26,8 +26,6 @@ struct Activities : Identifiable{
     }
 }
 
-
-//REPEATING DIGANTI KE 3 NANTI
 let activitiesLess60 : [Activities] = [Activities(title: "Quick Breathing", image: Image("quickBreathing"), time: "15 SECS", repeating: 1, breathingTime: [5,5,5,0]),
                                        Activities(title: "Emergency Breathing", image: Image("emergency"), time: "21 Seconds", repeating: 1, breathingTime: [7,7,7,0]),
                                        Activities(title: "Before Sleep Breathing", image: Image("beforeSleep"), time: "57 SECS", repeating: 3, breathingTime: [4, 7, 8, 0]),
