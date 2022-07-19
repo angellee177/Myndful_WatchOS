@@ -103,6 +103,9 @@ struct BreathingTimerView: View {
                             default:
                                 print("fail")
                             }
+//                            let impact = UIImpactFeedbackGenerator(style: .heavy)
+//                            impact.impactOccurred()
+                            WKInterfaceDevice.current().play(.failure)
                         }
                     }
                 
