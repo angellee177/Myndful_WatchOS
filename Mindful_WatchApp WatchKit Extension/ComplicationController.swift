@@ -1,20 +1,24 @@
 //
 //  ComplicationController.swift
-//  Mindful_WatchApp WatchKit Extension
+//  SepotipaiW WatchKit Extension
 //
-//  Created by Angel Ria Purnamasari on 12/07/22.
+//  Created by Muhammad Tafani Rabbani on 14/07/22.
 //
 
 import ClockKit
+import SwiftUI
+
+
 
 
 class ComplicationController: NSObject, CLKComplicationDataSource {
+    var mindfulToday : Bool = false
     
     // MARK: - Complication Configuration
 
     func getComplicationDescriptors(handler: @escaping ([CLKComplicationDescriptor]) -> Void) {
         let descriptors = [
-            CLKComplicationDescriptor(identifier: "complication", displayName: "Mindful_WatchApp", supportedFamilies: CLKComplicationFamily.allCases)
+            CLKComplicationDescriptor(identifier: "complication", displayName: "SwiftUITutorial", supportedFamilies: CLKComplicationFamily.allCases)
             // Multiple complication support can be added here with more descriptors
         ]
         
@@ -41,8 +45,28 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     // MARK: - Timeline Population
     
     func getCurrentTimelineEntry(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTimelineEntry?) -> Void) {
+        // TODO: Get song data (opt 2)
+
         // Call the handler with the current timeline entry
-        handler(nil)
+        if let template = getComplicationTemplate(for: complication) {
+            let entry = CLKComplicationTimelineEntry(date: Date(), complicationTemplate: template)
+            handler(entry)
+        } else {
+            handler(nil)
+        }
+    }
+    
+    func getComplicationTemplate(for complication: CLKComplication) -> CLKComplicationTemplate? {
+        // TODO: Get song data (opt 1)
+        
+        switch complication.family {
+        case .graphicCircular:
+            //return CLKComplicationTemplateGraphicCircularView(CircularComplicationView())
+            return CLKComplicationTemplateGraphicCircularImage(imageProvider: CLKFullColorImageProvider(fullColorImage: UIImage(named: "LogoMyndful")!))
+            
+        default:
+            return nil
+        }
     }
     
     func getTimelineEntries(for complication: CLKComplication, after date: Date, limit: Int, withHandler handler: @escaping ([CLKComplicationTimelineEntry]?) -> Void) {

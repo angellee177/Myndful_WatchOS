@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct BreathingTimerView: View {
-    @Environment(\.dismiss) var dismiss
-    
     @State var breathingSeconds : [Int] = [4, 7, 8, 0]
     @State var breathingRepeat : Int = 3
     
@@ -61,7 +59,6 @@ struct BreathingTimerView: View {
                                 moveToNextScreen = true
                                 return
                             }
-                            //breathingSeconds[3] != 3 ? 2:1
                             updateTimer()
                             
                             switch(breathState){
