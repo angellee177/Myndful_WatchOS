@@ -31,6 +31,6 @@ let activitiesLess60 : [Activities] = [Activities(title: "Quick Breathing", imag
                                        Activities(title: "Before Sleep Breathing", image: Image("beforeSleep"), time: "57 SECS", repeating: 3, breathingTime: [4, 7, 8, 0]),
                                        Activities(title: "Calm Breathing", image: Image("breathingCalm"), time: "60 SECS", repeating: 10, breathingTime: [3,3,3,0])]
 
-let activitiesMore60 : [Activities] = [Activities(title: "Wake Up Breathing", image: Image("wakeUp"), time: "120 SECS", repeating: 12, breathingTime: [8, 1, 2, 0]),
+let activitiesMore60 : [Activities] = [Activities(title: "Wake Up Breathing", image: Image("wakeUp"), time: "120 SECS", repeating: 12, breathingTime: [8, 0, 2, 0]),
                                        Activities(title: "Productivity Breathing", image: Image("productivity"), time: "192 SECS", repeating: 16, breathingTime: [3,3,3,3])]
 
