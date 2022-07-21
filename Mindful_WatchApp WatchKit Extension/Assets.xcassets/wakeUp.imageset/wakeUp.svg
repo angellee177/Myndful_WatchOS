@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="22px" viewBox="0 0 23 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#84B8FC" offset="0%"></stop>
+            <stop stop-color="#DEE6FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Prototyping-Apple-Watch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="0,0" stroke-linecap="round">
+        <g id="Apple-Watch-44mm---22" transform="translate(-24.000000, -60.000000)" stroke="url(#linearGradient-1)" stroke-width="1.91666663">
+            <g id="Frame-5476" transform="translate(11.000000, 42.000000)">
+                <g id="Frame-5475" transform="translate(13.000000, 6.994133)">
+                    <g id="akar-icons:sun" transform="translate(0.000000, 10.500000)">
+                        <g id="Group" transform="translate(1.916676, 1.916668)">
+                            <path d="M9.58333302,0.958333302 L9.58333302,0 M9.58333302,19.166666 L9.58333302,18.2083327 M18.2083327,9.58333302 L19.166666,9.58333302 M0,9.58333302 L0.958333302,9.58333302 M15.8124995,3.35416656 L17.2499994,1.9166666 M1.9166666,17.2499994 L3.35416656,15.8124995 M1.9166666,1.9166666 L3.35416656,3.35416656 M15.8124995,15.8124995 L17.2499994,17.2499994" id="Vector"></path>
+                            <path d="M9.58332181,13.4166627 C7.46623021,13.4166627 5.74998856,11.700421 5.74998856,9.58332944 C5.74998856,7.46623784 7.46623021,5.74999619 9.58332181,5.74999619 C11.7004134,5.74999619 13.4166551,7.46623784 13.4166551,9.58332944 C13.4166551,11.700421 11.7004134,13.4166627 9.58332181,13.4166627 Z" id="Vector"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
