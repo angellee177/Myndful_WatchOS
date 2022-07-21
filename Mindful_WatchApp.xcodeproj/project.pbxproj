@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06709108288871CD00880EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06709107288871CD00880EA6 /* Assets.xcassets */; };
 		06AFBE812882BC0500CBDCBC /* BreathingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFBE7D2882BC0500CBDCBC /* BreathingTimerView.swift */; };
 		06AFBE822882BC0500CBDCBC /* FinishBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFBE7E2882BC0500CBDCBC /* FinishBreathing.swift */; };
 		06AFBE832882BC0500CBDCBC /* BreathingActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFBE7F2882BC0500CBDCBC /* BreathingActivityData.swift */; };
 		06AFBE842882BC0500CBDCBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFBE802882BC0500CBDCBC /* ContentView.swift */; };
 		06AFBE882882BCF000CBDCBC /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AFBE872882BCEF00CBDCBC /* ActivityList.swift */; };
+		06EA7ACA2886AF0D005747C1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA7AC92886AF0D005747C1 /* ComplicationController.swift */; };
+		06EA7ACC2886B07F005747C1 /* ComplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA7ACB2886B07F005747C1 /* ComplicationView.swift */; };
 		EEB154A9287D73E3002BE3C1 /* Mindful_WatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EEB154A8287D73E3002BE3C1 /* Mindful_WatchApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EEB154AE287D73E6002BE3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB154AD287D73E6002BE3C1 /* Assets.xcassets */; };
 		EEB154B4287D73E6002BE3C1 /* Mindful_WatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EEB154B3287D73E6002BE3C1 /* Mindful_WatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -19,7 +22,6 @@
 		EEB154BB287D73E6002BE3C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB154BA287D73E6002BE3C1 /* ContentView.swift */; };
 		EEB154BD287D73E6002BE3C1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB154BC287D73E6002BE3C1 /* NotificationController.swift */; };
 		EEB154BF287D73E6002BE3C1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB154BE287D73E6002BE3C1 /* NotificationView.swift */; };
-		EEB154C3287D73E7002BE3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB154C2287D73E7002BE3C1 /* Assets.xcassets */; };
 		EEB154C6287D73E7002BE3C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB154C5287D73E7002BE3C1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -66,11 +68,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		06709107288871CD00880EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06AFBE7D2882BC0500CBDCBC /* BreathingTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreathingTimerView.swift; sourceTree = "<group>"; };
 		06AFBE7E2882BC0500CBDCBC /* FinishBreathing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishBreathing.swift; sourceTree = "<group>"; };
 		06AFBE7F2882BC0500CBDCBC /* BreathingActivityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreathingActivityData.swift; sourceTree = "<group>"; };
 		06AFBE802882BC0500CBDCBC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06AFBE872882BCEF00CBDCBC /* ActivityList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
+		06EA7AC92886AF0D005747C1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		06EA7ACB2886B07F005747C1 /* ComplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationView.swift; sourceTree = "<group>"; };
 		EEB154A4287D73E3002BE3C1 /* Mindful_WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mindful_WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB154A8287D73E3002BE3C1 /* Mindful_WatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindful_WatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB154AD287D73E6002BE3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +84,6 @@
 		EEB154BA287D73E6002BE3C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEB154BC287D73E6002BE3C1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		EEB154BE287D73E6002BE3C1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		EEB154C2287D73E7002BE3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEB154C5287D73E7002BE3C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEB154C7287D73E7002BE3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEB154C8287D73E7002BE3C1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				06AFBE802882BC0500CBDCBC /* ContentView.swift */,
 				06AFBE7E2882BC0500CBDCBC /* FinishBreathing.swift */,
 				EEB154C7287D73E7002BE3C1 /* Info.plist */,
+				06EA7AC92886AF0D005747C1 /* ComplicationController.swift */,
+				06EA7ACB2886B07F005747C1 /* ComplicationView.swift */,
 				EEB154C8287D73E7002BE3C1 /* PushNotificationPayload.apns */,
 				EEB154C4287D73E7002BE3C1 /* Preview Content */,
 			);
@@ -145,8 +151,8 @@
 		EEB154C4287D73E7002BE3C1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EEB154C2287D73E7002BE3C1 /* Assets.xcassets */,
 				EEB154C5287D73E7002BE3C1 /* Preview Assets.xcassets */,
+				06709107288871CD00880EA6 /* Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -266,8 +272,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06709108288871CD00880EA6 /* Assets.xcassets in Resources */,
 				EEB154C6287D73E7002BE3C1 /* Preview Assets.xcassets in Resources */,
-				EEB154C3287D73E7002BE3C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +291,10 @@
 				06AFBE822882BC0500CBDCBC /* FinishBreathing.swift in Sources */,
 				06AFBE842882BC0500CBDCBC /* ContentView.swift in Sources */,
 				EEB154B9287D73E6002BE3C1 /* Mindful_WatchAppApp.swift in Sources */,
+				06EA7ACA2886AF0D005747C1 /* ComplicationController.swift in Sources */,
 				EEB154BF287D73E6002BE3C1 /* NotificationView.swift in Sources */,
 				06AFBE812882BC0500CBDCBC /* BreathingTimerView.swift in Sources */,
+				06EA7ACC2886B07F005747C1 /* ComplicationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
