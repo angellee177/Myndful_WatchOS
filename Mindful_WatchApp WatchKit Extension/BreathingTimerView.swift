@@ -64,8 +64,13 @@ struct BreathingTimerView: View {
                             switch(breathState){
                             case 0:
                                 scalePoint = 1.5
-                                breathState = 1
                                 breathDescription = "Inhale"
+                                if breathingSeconds[1] == 0{
+                                    breathState = 2
+                                }
+                                else{
+                                    breathState = 1
+                                }
                             case 1:
                                 scalePoint = 1.5
                                 breathState = 2
